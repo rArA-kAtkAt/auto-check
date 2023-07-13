@@ -1,0 +1,313 @@
+.body-theme{
+    background-color:#041662 !important;
+    color:rgb(255, 255, 255);
+}
+@font-face {
+    font-family: font;
+    src: url(../fonts/Montserrat-Regular.otf);
+  }
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+html,
+body {
+  height: 100%;
+  font-family: font !important;
+}
+
+.letter-circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.letter-circle2 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color:#041662;
+    border: 3px solid #041662;
+    text-align: center;
+}
+
+.letter-circle3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color:white;
+    border: 2px solid white;;
+    text-align: center;
+    font-size:12px;
+    
+}
+
+.blob {
+	border-radius: 50%;
+
+
+}
+.blob {
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        opacity:80%;
+	}
+
+	70% {
+		transform: scale(1);
+        opacity:50%;
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        opacity:75%;
+	}
+}
+.card-design{
+    border: 3px solid #041662 !important;
+    border-radius:25px !important;
+    max-width:400px !important;
+    margin-top:-200px !important;
+    background-color: rgba(243, 242, 242, 0.753) !important;  
+}
+.card-design1{
+    border: 3px solid #041662 !important;
+    border-radius:10px !important;
+    color:#041662;
+    max-width:170px !important;
+    background-color: rgba(243, 242, 242, 0.753) !important;  
+}
+.card-design2{
+    background-color: rgba(243, 242, 242, 0.753) !important;  
+
+}
+.bg{
+    background-color:#041662 !important;
+    color:white !important;
+}
+.login-btn{
+    background-color:#041662 !important;
+    color:rgb(255, 255, 255) !important;
+    border-radius:50px !important;
+    width:90px;
+    border:2px solid #041662;
+
+}
+.add-btn{
+    background-color:#041662 !important;
+    color:rgb(255, 255, 255) !important;
+    border-radius:50px !important;
+    border:2px solid #041662;
+    margin-left:50px !important;
+    margin-top:-1px !important;
+    
+}
+
+.quick-check-btn{
+    background-color:#1F8A70 !important;
+    color:rgb(255, 255, 255) !important;
+    border-radius:50px !important;
+    width:120px;
+    border:2px solid #1F8A70;
+
+}
+.quick-check-btn:hover{
+    background-color:#ffffff !important;
+    color:#1F8A70 !important;
+    border-radius:50px !important;
+    width:120px;
+    border:2px solid #1F8A70;
+
+}
+.login-btn:hover{
+    background-color:#ecebeb !important;
+    color:#041662 !important;
+    border-radius:50px !important;
+    width:90px;
+    border:2px solid #041662;
+
+}
+
+
+.register-color{
+    color:#041662 !important;
+    font-size:13px;
+}
+.crt-account-text{
+    color:#041662 !important;
+
+}
+.register-color:hover{
+    color:#1792b8 !important;
+    font-size:13px;
+}
+.navbar{
+    background-color:#041662;
+    color:white;
+}
+
+.navbar2{
+  background-color:#1F8A70 !important;
+  color:white;
+}
+
+
+.body1{
+    background-image: url("../img/bg.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+
+.form-1 {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 0 0 30px;
+    max-width:950px;
+    margin-left:100px;    
+  }
+  
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    width:900px;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+  
+
+
+  
+  .setting-btn{
+    float:right;
+  }
+
+
+  .card1:nth-child(even) {
+      background: #041662 !important;
+      color:white !important;
+  }
+
+  .card1:nth-child(odd) {
+    background: white !important;
+    color:#041662 !important;
+  }
+  .theme-color{
+    color:#041662 !important;
+  }
+  .theme-bg{
+    background-color:#041662 !important;
+    color:white !important;
+  }
+  .theme-color:nth-child(even){
+    color:white !important;
+
+  }
+  .fa-ellipsis-v:nth-child(odd) {
+      color:blue !important;
+  }
+
+  .fader {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+  
+      @media only screen and (min-width: 768px) {
+   
+      }
+      @media only screen and (max-width: 600px) {
+          .add-btn{
+              float:left !important;
+              margin-left:40px;
+              margin-top:-1px !important;
+          }
+          .form-1{
+              max-width:250px;
+              height:30px;
+              margin-top:30px !important;
+  
+          }
+          input[type="search"] {
+              border: none;
+              background: transparent;
+              margin: 0;
+              width:500px;
+              padding: 7px 8px;
+              font-size: 14px;
+              color: inherit;
+              border: 1px solid transparent;
+              border-radius: inherit;
+  }
+      .card-design1{
+        max-width:140px !important;
+      }
+      .setting-btn{
+        margin-left:90px !important;
+  
+      }
+      .setting-btn>h6{
+          font-size:12px !important;
+      }
+      .container1{
+        margin-left:5px !important;
+      }
+        
+      }
+
+      .custom-file-input1::-webkit-file-upload-button {
+        visibility: hidden;
+      }
+      .custom-file-input1::before {
+        content: 'Check';
+        display: inline-block;
+        background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+        border: 1px solid #999;
+        border-radius: 3px;
+        padding: 5px 8px;
+        outline: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-shadow: 1px 1px #fff;
+        font-weight: 700;
+        font-size: 10pt;
+      }
+      .custom-file-input:hover::before {
+        border-color: black;
+      }
+      .custom-file-input:active::before {
+        background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+      }
+      
